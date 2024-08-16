@@ -13,7 +13,7 @@ class Product{
         this.category = category;
         this.unitePrice = unitPrice;
         this.quantitySold = quntitySold;
-        this.salesAmount = salesAmount;
+        this.salesAmount = unitPrice * quantitySold;
     }
     public String toString(){
         return productId + " " +productName + " " + category + " " + unitePrice + " " + quantitySold +" " + salesAmount + " " ; 
