@@ -18,4 +18,5 @@ class Product{
     public String toString(){
         return productId + " " +productName + " " + category + " " + unitePrice + " " + quantitySold +" " + salesAmount + " " ; 
     }
+    
 }
