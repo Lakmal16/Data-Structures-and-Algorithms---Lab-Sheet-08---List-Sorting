@@ -5,6 +5,7 @@ class Product{
     double unitePrice;
     int quantitySold;
     double salesAmount;
+    
 
     public Product(String productId, String productName,String category,double unitPrice,int quntitySold){
         this.productId = productId;
